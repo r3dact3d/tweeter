@@ -15,9 +15,12 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 # Initiate the connection to Twitter Streaming API
 twitStream = TwitterStream(auth=oauth)
 
+# List of phrases to track
+keywords = ["#resolution", "new year's resolution", "newyear"]
+
 # Get a sample of the public data following through Twitter
 #iterator = twitter_stream.statuses.sample()
-iterator = twitStream.statuses.filter(track="#resolution", language="en")
+iterator = twitStream.statuses.filter(track=keywords, language="en", stall_warnings=true, )
 
 # Get data for my specific stream
 

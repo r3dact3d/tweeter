@@ -1,8 +1,6 @@
+#!/usr/bin/env python
 # Import the necessary package to process data in JSON format
-try:
-    import json
-except ImportError:
-    import simplejson as json
+import json
 
 # Import the necessary methods from "twitter" library
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream

@@ -5,10 +5,10 @@ import json
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
 # Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = '775072286617571328-XlgRWQiCCTGSAKjPmiYshuf6rGSXxYk'
-ACCESS_SECRET = 'sLbip6Oi3BHlq3hwcfMmF35PmJSm4cJZ4wYqmBql5N5ZP'
-CONSUMER_KEY = 'uoa6eO3G3U7gl8RVzB880WRQa'
-CONSUMER_SECRET = 'kKwSdpXJyF3Pn33cYn7yFOuagb9rFdvd39nTfcFfn6IZw7j8Wo'
+ACCESS_TOKEN = '######################################'
+ACCESS_SECRET = '##########################################'
+CONSUMER_KEY = '#########################################'
+CONSUMER_SECRET = '###########################################'
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 

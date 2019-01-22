@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# written by brady [r3dact3d]
 from bs4 import BeautifulSoup
 import requests
 import tweepy
